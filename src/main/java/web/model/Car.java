@@ -2,12 +2,12 @@ package web.model;
 
 public class Car {
 
-    private String make;
+    private String brand;
     private String model;
     private int year;
 
-    public Car(String make, String model, int year) {
-        this.make = make;
+    public Car(String brand, String model, int year) {
+        this.brand = brand;
         this.model = model;
         this.year = year;
     }
@@ -15,12 +15,12 @@ public class Car {
     public Car() {
     }
 
-    public String getMake() {
-        return make;
+    public String getBrand() {
+        return brand;
     }
 
-    public void setMake(String make) {
-        this.make = make;
+    public void setBrand(String make) {
+        this.brand = brand;
     }
 
     public String getModel() {
